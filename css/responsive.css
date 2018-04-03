@@ -1,0 +1,99 @@
+/*============================================================================
+			RESPONSIVE CSS WITH MEDIA 
+=============================================================================*/
+/*=============  MEDIA 1400px   =============*/
+@media(min-width:1200px) and (max-width:1400px) {
+header .nav-links {
+	margin-top: 25%;
+}
+.container {
+	padding-left: 95px;
+}
+}
+/*=============  MEDIA 1200px   =============*/
+@media(min-width:1200px) {
+}
+/*=============  MEDIA 1024px   =============*/
+@media(max-width:1024px) {
+}
+/*=============  MEDIA 992px - 1199px   =============*/
+@media(min-width:992px) and (max-width:1199px) {
+.container {
+	padding-left: 95px;
+}
+.portfolio .items li {
+	width: 50%;
+}
+}
+/*=============  MEDIA 768px - 991px   =============*/
+@media(min-width:768px) and (max-width:991px) {
+.portfolio .items li {
+	width: 50%;
+}
+}
+/*=============  MEDIA 767px   =============*/
+@media(max-width:767px) {
+.container {
+	padding-left: 95px;
+}
+.search-close {
+	left: 0px;
+	right: 0px;
+	margin-left: 80px;
+}
+.blog-info {
+	padding: 0px;
+	padding-top: 30px;
+}
+.portfolio .items li {
+	width: 50%;
+}
+.clients li {
+	width: 50%;
+}
+.testimonial .testi {
+	padding: 80px 20px
+}
+.search-form {
+	width: 100%;
+	margin: 0 auto;
+	padding-left: 80px;
+}
+.search-form {
+	margin-top: 150px;
+}
+.skills {
+	margin: 30px;
+}
+.nav-close{
+	display:block;
+}
+}
+/*=============  MEDIA 600px   =============*/
+@media (max-width:640px) {
+.portfolio .items li {
+	width: 100%;
+}
+header .logo{
+	margin-top:20px;
+}
+header .nav-links{
+	margin-top:15%;
+}
+header nav{
+	padding-top:40%;
+}
+}
+/*=============  MEDIA 540px   =============*/
+@media(max-width:540px) {
+
+}
+/*=============  MEDIA 400px   =============*/
+@media(max-width:440px) {
+.clients li {
+	width: 100%;
+}
+}
+/*=============  MEDIA 320px   =============*/
+@media(max-width:320px) {
+}

@@ -1,0 +1,55 @@
+
+/*=======================================================
+			DROP DOWN CSS
+========================================================*/
+@media (max-width: 1400px) and (min-width: 1200px){
+header .nav-links{
+	margin-top: 17%;
+}
+}
+header .nav-links .drop-menu .drop-menu{
+	position: relative;
+	padding-top: 5px;
+}
+header .nav-links .well{
+	background: none;
+	border:none;
+	box-shadow: none;
+	padding: 0px; 
+	padding-top: 10px;
+}
+header .nav-links .drop-menu .well li{
+	padding: 5px 0;
+}
+header .nav-links .drop-menu a{
+	display: block;
+	float: none;
+	position: relative;
+	width: auto;
+}
+header .nav-links .drop-menu li{
+	position: relative;
+}
+header .nav-links .drop-menu .well li a{
+	opacity: 0.5;
+}
+header .nav-links .drop-menu .well li a:hover{
+	opacity: 1;
+	color: #000;
+}
+header .nav-links .drop-menu a.title:before {
+  content: "\f462";
+  font-family: "Ionicons";
+  padding: 0px;
+  margin-left: -15px;
+  color: #323232;
+  margin-top: -5px;
+  font-size: 20px;
+  position: absolute;
+  display: inline-block;
+  font-weight: 100;
+}
+header .nav-links .drop-menu a.collapsed:before {
+  content: "\f489";
+  color: #323232;
+}
