@@ -1,27 +1,3 @@
-/*------------------------------------------------------------------
-Main Style Stylesheet
-	Project:		Monsterrat - Minimal HTML5 Portfolio
-	Version:	    1.0
-	Author:			M_Adnan
-	Last change:	07/12/2015
-	Primary use:	Monsterrat - Minimal HTML5 Portfolio
--------------------------------------------------------------------*/
-
-/*------------------------------------------------------------------
-body
- + WRAP
- + HEADER
- + NAVIGATION
- + SERVICES
- + ABOUT US
- + TESTIMONIALS
- + BLOG UPDATES
- + NEWS FROM BLOG
- + PARTNERS / CLIENTS
- + FOOTER
- + SOCIAL ICONS
- + LEFT MENU
--------------------------------------------------------------------*/
 /*=======================================================
 			THEME STYLING START
 ========================================================*/
@@ -29,6 +5,7 @@ body
 	margin: 0px;
 	padding: 0px;
 }
+
 body {
 	background: #FFF;
 	font-weight: normal;
@@ -38,6 +15,7 @@ body {
 	letter-spacing: 1px;
 	font-family: 'Lato';
 }
+
 /*=======================================================
 			WRAPPER
 ========================================================*/
@@ -45,40 +23,54 @@ body {
 	position: relative;
 	width: 100%;
 }
+
 /*=======================================================
 			HEADINGS
 ========================================================*/
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-weight: normal;
 	color: #333333;
 	font-family: 'Montserrat';
 }
+
 h1 {
 	font-size: 65px;
 }
+
 h2 {
 	font-size: 45px;
 	font-weight: bold;
 }
+
 h3 {
 	font-size: 30px;
 }
+
 h4 {
 	font-size: 20px;
 }
+
 h5 {
 	font-size: 14px;
 	font-weight: bold;
 }
+
 h6 {
 	font-size: 12px;
 	font-weight: bold;
 }
+
 p {
 	color: #999999;
 	font-size: 14px;
 	line-height: 24px;
 }
+
 a {
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
@@ -87,6 +79,7 @@ a {
 	transition: all 0.4s ease-in-out;
 	text-decoration: none !important;
 }
+
 img {
 	-webkit-transition: 0.4s ease-in-out;
 	-moz-transition: 0.4s ease-in-out;
@@ -95,14 +88,17 @@ img {
 	transition: 0.4s ease-in-out;
 	display: inline-block !important;
 }
+
 li {
 	list-style: none;
 }
+
 a {
 	text-decoration: none;
 	color: #333333;
 	letter-spacing: 2px;
 }
+
 /*=======================================================
 			SECTION
 ========================================================*/
@@ -111,6 +107,7 @@ section {
 	overflow: hidden;
 	width: 100%;
 }
+
 /*=======================================================
 			BUTTON
 ========================================================*/
@@ -133,123 +130,157 @@ section {
 	-ms-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 }
+
 .btn:hover {
 	background: none;
 	color: #333333;
 	border-color: #333333;
 }
+
 .btn-1 {
 	background: none;
 	color: #333333;
 }
+
 .btn-1:hover {
 	background: #333333;
 	color: #fff;
 }
+
 .form-control {
 	box-shadow: none;
 	border: 1px solid #f7f7f7;
 	border-radius: 0px;
 	height: 40px;
 }
+
 .form-control:focus {
 	border: none;
 	box-shadow: none;
 }
+
 .highlight {
 	background: #fff !important;
 	border-bottom: 1px solid red !important;
 	border-left: 1px solid red !important;
 }
-.btn.focus, .btn:focus, .btn:hover {
-}
+
+.btn.focus,
+.btn:focus,
+.btn:hover {}
+
 /*=======================================================
 			MARGIN 20px
 ========================================================*/
 .margin-r-20 {
 	margin-right: 20px;
 }
+
 .margin-l-20 {
 	margin-left: 20px;
 }
+
 .margin-t-20 {
 	margin-top: 20px;
 }
+
 .margin-t-30 {
 	margin-top: 30px;
 }
+
 .margin-b-20 {
 	margin-bottom: 20px;
 }
+
 /*=======================================================
 			MARGIN 40px
 ========================================================*/
 .margin-r-40 {
 	margin-right: 40px;
 }
+
 .margin-l-40 {
 	margin-left: 40px;
 }
+
 .margin-t-40 {
 	margin-top: 40px;
 }
+
 .margin-b-40 {
 	margin-bottom: 40px;
 }
+
 /*=======================================================
 			MARGIN 80px
 ========================================================*/
 .margin-r-80 {
 	margin-right: 80px;
 }
+
 .margin-l-80 {
 	margin-left: 80px;
 }
+
 .margin-t-80 {
 	margin-top: 80px;
 }
+
 .margin-b-80 {
 	margin-bottom: 80px;
 }
+
 /*=======================================================
 			PADDING
 ========================================================*/
 .padding-r-20 {
 	padding-right: 20px !important;
 }
+
 .padding-r-80 {
 	padding-right: 80px !important;
 }
+
 .padding-l-20 {
 	padding-left: 20px;
 }
+
 .padding-t-20 {
 	padding-top: 20px;
 }
+
 .padding-t-50 {
 	padding-top: 50px;
 }
+
 .padding-b-20 {
 	padding-bottom: 20px;
 }
+
 .padding-b-50 {
 	padding-bottom: 50px;
 }
+
 .no-margin {
 	margin: 0px !important;
 }
+
 .no-padding {
 	padding: 0px !important;
 }
+
 .no-margin-t {
 	margin-top: 0px !important;
 }
+
 .no-padding-t {
 	padding-top: 0px !important;
 }
+
 .padding-l-60 {
 	padding-left: 60px;
 }
+
 /*=======================================================
 			TITTLE
 ========================================================*/
@@ -261,6 +292,7 @@ section {
 	margin-top: 0px;
 	margin-bottom: 50px;
 }
+
 hr {
 	background: #c7c7c7;
 	height: 3px;
@@ -269,6 +301,7 @@ hr {
 	margin-bottom: 20px;
 	border: none;
 }
+
 /*=======================================================
 			HEADER
 ========================================================*/
@@ -277,11 +310,13 @@ header {
 	position: relative;
 	z-index: 9999;
 }
+
 header .logo {
 	display: inline-block;
 	width: 100%;
 	margin-top: 80px;
 }
+
 header .logo span {
 	display: inline-block;
 	width: 100%;
@@ -293,6 +328,7 @@ header .logo span {
 	font-size: 18px;
 	font-family: 'Montserrat';
 }
+
 header nav {
 	position: fixed;
 	left: 0px;
@@ -300,67 +336,92 @@ header nav {
 	width: 80px;
 	z-index: 9999999;
 	text-align: center;
-	background: #333333;
+	background: #101010;
 	padding-top: 20%;
 }
+
+@media screen and (max-width: 480px) {
+	header nav {
+		width: 40px;
+	}
+}
+
 header nav i {
 	font-size: 25px;
 	color: #fff;
 }
+
 header .open-navigation {
 	position: absolute;
 	width: 0px;
 	left: 80px;
-	background: rgba(241,241,241,0.95);
+	background: rgba(241, 241, 241, 0.95);
 	height: 100%;
 	top: 0px;
 	z-index: -99;
 	opacity: 0;
 	transition: all 0.4s ease-in-out;
 }
+
+@media screen and (max-width: 480px) {
+	header .open-navigation {
+		left: 40px;
+	}
+}
+
 header .open-navigation .navi-in {
 	display: none;
 	transition: all 0s ease-in-out;
 }
+
 .navgation {
 	text-align: center;
 }
+
 .navgation a {
 	display: inline-block;
 	width: 100%;
 	float: left;
 }
+
 .navgation {
 	display: inline-block;
 	width: 100%;
 	margin-bottom: 10px;
 }
+
 header .open-navigation .navi-in {
 	display: none;
 	position: absolute;
 	height: 100%;
 }
+
 .navgation:hover .open-navigation {
 	opacity: 1;
 	width: 250px;
 }
+
 .navgation:hover .navi-in {
 	display: block;
 }
+
 header .share {
 	position: relative;
 }
+
 header .nav-links {
 	display: inline-block;
 	width: 100%;
 	margin-top: 60%;
 	margin-bottom: 90%;
 }
+
 header .nav-links li {
 	display: inline-block;
 	width: 100%;
 	padding: 10px 0;
 }
+
 header .nav-links li a {
 	display: inline-block;
 	width: 100%;
@@ -370,12 +431,15 @@ header .nav-links li a {
 	font-family: 'Montserrat';
 	font-size: 12px;
 }
+
 header .nav-links li a:hover {
 	color: #a3a3a3;
 }
+
 header .nav-links li.active a {
 	color: #a3a3a3;
 }
+
 header .ads {
 	position: absolute;
 	bottom: 20px;
@@ -384,23 +448,28 @@ header .ads {
 	font-size: 12px;
 	padding: 0 30px;
 }
+
 header .social_icons {
 	display: inline-block;
 	width: 100%;
 }
+
 header .social_icons a {
 	border-radius: 0px;
 	border-color: #e5e5e5;
 }
+
 header .social_icons a i {
 	color: #777777;
 }
+
 header .share .open-navigation {
 	height: 60px;
 	padding-top: 10px;
 	padding-left: 10px;
 	margin-top: -10px;
 }
+
 .search input {
 	border: none;
 	width: 100%;
@@ -411,15 +480,17 @@ header .share .open-navigation {
 	color: #333333;
 	font-size: 30px;
 }
+
 .search input:focus {
 	border: none !important;
 	outline: none;
 	border-bottom: 1px solid #333 !important;
 }
+
 /*==========  Search  ==========*/
 .search-overlay {
 	background: #7c4dff;
-	background: rgba(241,241,241,0.95);
+	background: rgba(241, 241, 241, 0.95);
 	-webkit-transform: scale(0);
 	-moz-transform: scale(0);
 	-ms-transform: scale(0);
@@ -436,6 +507,7 @@ header .share .open-navigation {
 	z-index: 999;
 	border-radius: 100%;
 }
+
 .search-overlay.scale {
 	-webkit-transform: scale(1);
 	-moz-transform: scale(1);
@@ -443,6 +515,7 @@ header .share .open-navigation {
 	-o-transform: scale(1);
 	transform: scale(1);
 }
+
 .search {
 	position: fixed;
 	top: 0;
@@ -457,9 +530,11 @@ header .share .open-navigation {
 	padding-top: 20%;
 	font-size: 24px;
 }
+
 .search.open {
 	display: block;
 }
+
 .search button {
 	border: none;
 	float: right;
@@ -470,6 +545,7 @@ header .share .open-navigation {
 	position: relative;
 	z-index: 99;
 }
+
 .search-close {
 	position: absolute;
 	right: 48px;
@@ -478,9 +554,11 @@ header .share .open-navigation {
 	font-size: 50px;
 	color: #332;
 }
+
 .search-close:hover {
 	opacity: .75;
 }
+
 /*=======================================================
 			CONTENT
 ========================================================*/
@@ -488,27 +566,34 @@ header .share .open-navigation {
 	background: #ffffff;
 	padding-top: 70px;
 }
+
 /*=======================================================
 			PORTFOLIO
 ========================================================*/
 .portfolio {
 	position: relative;
 	padding-left: 80px;
-	display:inline-block;
-	width:100%;
-	overflow:hidden;
+	display: inline-block;
+	width: 100%;
+	overflow: hidden;
 	min-height: 850px;
 }
-.portfolio ul{
 
+@media screen and (max-width: 480px) {
+	.portfolio {
+		padding-left: 40px;
+	}
 }
+
 .portfolio li {
 	position: relative;
 	overflow: hidden;
 }
+
 .portfolio li img {
 	width: 100%;
 }
+
 .portfolio li .hover-sec {
 	border: 12px solid;
 	border-color: transparent;
@@ -525,65 +610,78 @@ header .share .open-navigation {
 	-ms-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 }
+
 .portfolio .hover-sec a.hover-in {
 	position: absolute;
-	background: rgba(255,255,255,0.85);
+	background: rgba(255, 255, 255, 0.85);
 	height: 100%;
 	width: 100%;
 	text-align: center;
 	padding-top: 30%;
 }
+
 .portfolio .hover-sec .name {
 	font-family: 'Montserrat';
 	font-size: 15px;
 	color: #333333;
 }
+
 .portfolio .cat {
 	font-style: italic;
 }
+
 .portfolio li:hover .hover-sec {
 	opacity: 1;
 	top: 0px;
 }
+
 .portfolio-single {
 	background: #f7f8f9;
 }
+
 .portfolio-single ul {
 	background: #fff;
 	margin-bottom: 80px;
 	display: inline-block;
 	width: 100%;
 }
+
 .portfolio-single .project-info {
 	padding: 30px;
 	padding-top: 50px;
-	font-family: helvetica, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Meiryo, メイリオ, Osaka, "MS PGothic", arial, sans-serif!important;
+	font-family: helvetica, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Meiryo, メイリオ, Osaka, "MS PGothic", arial, sans-serif !important;
 }
+
 .portfolio-single .project-info p {
 	margin-bottom: 20px;
-	font-family: helvetica, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Meiryo, メイリオ, Osaka, "MS PGothic", arial, sans-serif!important;
+	font-family: helvetica, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Meiryo, メイリオ, Osaka, "MS PGothic", arial, sans-serif !important;
 }
+
 .portfolio-single .project-info h5 {
 	font-weight: normal;
 	margin-bottom: 20px;
-	font-family: helvetica, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Meiryo, メイリオ, Osaka, "MS PGothic", arial, sans-serif!important;
+	font-family: helvetica, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Meiryo, メイリオ, Osaka, "MS PGothic", arial, sans-serif !important;
 }
+
 .portfolio-single .project-info strong {
 	font-weight: normal;
-	font-family: helvetica, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Meiryo, メイリオ, Osaka, "MS PGothic", arial, sans-serif!important;
+	font-family: helvetica, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Meiryo, メイリオ, Osaka, "MS PGothic", arial, sans-serif !important;
 	text-transform: uppercase;
 }
+
 .portfolio-single .project-info .btn {
 	margin-top: 20px;
 }
+
 .portfolio-single .port-top-sec {
 	background: #fff;
 	height: 90px;
 	display: inline-block;
 	width: 100%;
 	margin-bottom: 80px;
-	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
+
 .portfolio-single .port-top-sec a {
 	font-size: 40px;
 	color: #6e6e6e;
@@ -592,20 +690,24 @@ header .share .open-navigation {
 	opacity: 0.5;
 	margin-top: 15px;
 }
+
 .portfolio-single .port-top-sec a.next {
 	border-left: 1px solid #777777;
 	padding-right: 0px;
 	padding-left: 30px;
 }
+
 .portfolio-single .port-top-sec a:hover {
 	opacity: 1;
 }
+
 .portfolio-single .port-top-sec a.close {
 	padding-right: 0px;
 	padding-left: 0px;
 	margin-top: 0px;
 	line-height: 90px;
 }
+
 /*=======================================================
 			WHO WE ARE
 ========================================================*/
@@ -615,31 +717,38 @@ header .share .open-navigation {
 	background: #f4f4f4;
 	margin-bottom: 0px;
 }
+
 .who-we ul {
 	text-align: center;
 }
+
 .who-we ul li {
 	position: relative;
 }
+
 .who-we .wo-we {
 	padding: 60px;
 	background: #f1f1f1;
 }
+
 .who-we .wo-we i {
 	font-size: 40px;
 	margin-bottom: 10px;
 	display: inline-block;
 }
+
 .who-we .owl-dot {
 	display: inline-block;
 	margin: 0 5px;
 }
+
 .who-we .owl-dot span {
 	height: 7px;
 	width: 7px;
 	background: #e5e5e5;
 	display: inline-block;
 }
+
 .who-we hr {
 	background: #c7c7c7;
 	height: 3px;
@@ -648,23 +757,28 @@ header .share .open-navigation {
 	margin-bottom: 20px;
 	border: none;
 }
+
 .who-we .owl-dot.active span {
 	background: #000000;
 }
+
 /*=======================================================
 			SERVICES
 ========================================================*/
 .services {
 	padding: 80px 0;
 }
+
 .services li {
 	margin-bottom: 30px;
 }
+
 .services .sec i {
 	font-size: 60px;
 	color: #c0c0c0;
 	letter-spacing: 3px;
 }
+
 .services .sec {
 	background: #f1f1f1;
 	padding: 80px 0;
@@ -672,18 +786,22 @@ header .share .open-navigation {
 	position: relative;
 	overflow: hidden;
 }
+
 .services .sec h6 {
 	font-weight: normal;
 }
+
 .services .ser-over a {
 	font-weight: bold;
 	font-size: 10px;
 	margin-top: 10px;
 }
+
 .services .ser-over h6 {
 	margin: 20px 0;
 	margin-top: 30px;
 }
+
 .services .ser-over {
 	background: #f1f1f1;
 	position: absolute;
@@ -700,25 +818,30 @@ header .share .open-navigation {
 	-ms-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 }
+
 .services .sec:hover .ser-over {
 	left: 0px;
 }
+
 /*=======================================================
 			PRICING & PLANS
 ========================================================*/
 .pricing {
 	padding: 80px 0;
 }
+
 .pricing .price {
 	border: 1px solid #ececec;
 	padding-top: 40px;
 	text-align: center;
 }
+
 .pricing .price h5 {
 	font-size: 16px;
 	text-transform: uppercase;
 	font-weight: normal;
 }
+
 .pricing .price span.sub-line {
 	display: inline-block;
 	width: 100%;
@@ -727,6 +850,7 @@ header .share .open-navigation {
 	color: #999999;
 	font-size: 12px;
 }
+
 .pricing .price .icon {
 	border: 1px solid #333333;
 	text-align: center;
@@ -738,9 +862,11 @@ header .share .open-navigation {
 	display: inline-block;
 	margin-top: 20px;
 }
+
 .pricing .price ul {
 	padding: 30px 60px;
 }
+
 .pricing .price ul li {
 	padding: 15px 0;
 	font-size: 11px;
@@ -753,9 +879,11 @@ header .share .open-navigation {
 	-ms-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 }
+
 .pricing .price ul li:nth-last-child(1) {
 	border-bottom: none;
 }
+
 .pricing .price .order-info {
 	padding: 20px 0;
 	display: inline-block;
@@ -767,6 +895,7 @@ header .share .open-navigation {
 	-ms-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 }
+
 .pricing .price .order-info p {
 	font-weight: 400;
 	color: #333333;
@@ -778,6 +907,7 @@ header .share .open-navigation {
 	-ms-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 }
+
 .pricing .price .order-info a {
 	text-transform: uppercase;
 	font-family: 'Montserrat';
@@ -791,6 +921,7 @@ header .share .open-navigation {
 	-ms-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 }
+
 .pricing .price .order-info a i {
 	height: 20px;
 	width: 20px;
@@ -806,6 +937,7 @@ header .share .open-navigation {
 	-ms-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 }
+
 .pricing .price .order-info p span {
 	font-size: 18px;
 	-webkit-transition: all 0.4s ease-in-out;
@@ -814,36 +946,47 @@ header .share .open-navigation {
 	-ms-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 }
+
 .pricing li:hover .order-info {
 	background: #333333;
 }
+
 .pricing li:hover .order-info a {
 	color: #fff;
 }
+
 .pricing li:hover .order-info a i {
 	border-color: #fff;
 }
+
 .pricing li:hover .order-info p {
 	color: #fff;
 }
+
 .pricing li:hover .order-info span {
 	color: #fff;
 }
+
 .pricing li.feature .order-info {
 	background: #333333;
 }
+
 .pricing li.feature .order-info a {
 	color: #fff;
 }
+
 .pricing li.feature .order-info a i {
 	border-color: #fff;
 }
+
 .pricing li.feature .order-info p {
 	color: #fff;
 }
+
 .pricing li.feature .order-info span {
 	color: #fff;
 }
+
 /*=======================================================
 			SKILLS
 ========================================================*/
@@ -854,6 +997,7 @@ header .share .open-navigation {
 	margin-bottom: 0px;
 	margin-top: 50px;
 }
+
 .skills .progress-bars p {
 	margin: 0px;
 	font-size: 12px;
@@ -862,11 +1006,13 @@ header .share .open-navigation {
 	font-weight: bold;
 	margin-bottom: 10px;
 }
+
 .skills .progress-bar {
 	border-radius: 0px;
 	background: #333333;
 	height: 4px;
 }
+
 .skills .progress-bar span {
 	display: inline-block;
 	float: right;
@@ -877,6 +1023,7 @@ header .share .open-navigation {
 	font-size: 10px;
 	font-family: 'Montserrat';
 }
+
 .skills .progress-bar h6 {
 	float: left;
 	padding-left: 20px;
@@ -884,6 +1031,7 @@ header .share .open-navigation {
 	font-weight: bold;
 	line-height: 42px;
 }
+
 .skills .progress {
 	border-radius: 0px;
 	position: relative;
@@ -895,42 +1043,52 @@ header .share .open-navigation {
 	overflow: inherit;
 	height: 4px;
 }
+
 .skills .progress-bars {
 	display: inline-block;
 	width: 100%;
 }
+
 /*=======================================================
 			COUNTER
 ========================================================*/
 #counters {
 	margin-top: -5px;
 }
+
 #counters ul {
 	margin-bottom: 0px;
 	display: inline-block;
 	width: 100%;
 	background: #262626;
 }
+
 #counters li {
 	text-align: center;
 	padding: 60px 0;
 }
+
 #counters li:nth-child(1) {
 	background: #262626;
 }
+
 #counters li:nth-child(2) {
 	background: #2b2b2b;
 }
+
 #counters li:nth-child(3) {
 	background: #303030;
 }
+
 #counters li:nth-child(4) {
 	background: #363636;
 }
+
 #counters i {
 	font-size: 40px;
 	color: #fff;
 }
+
 #counters span {
 	color: #fff;
 	display: inline-block;
@@ -938,11 +1096,13 @@ header .share .open-navigation {
 	font-size: 30px;
 	font-weight: 300;
 }
+
 #counters h6 {
 	color: #fff;
 	font-weight: bold;
 	text-transform: uppercase;
 }
+
 /*=======================================================
 			PORTFOLIO
 ========================================================*/
@@ -950,10 +1110,12 @@ header .share .open-navigation {
 	padding: 80px 0;
 	padding-bottom: 0px;
 }
+
 .team .team-member {
 	position: relative;
 	overflow: hidden;
 }
+
 .team .team-over {
 	position: absolute;
 	background: #f1f1f1;
@@ -969,6 +1131,7 @@ header .share .open-navigation {
 	padding: 0 30px;
 	padding-top: 20%;
 }
+
 .team li span {
 	display: inline-block;
 	width: 100%;
@@ -977,22 +1140,27 @@ header .share .open-navigation {
 	text-transform: uppercase;
 	font-weight: bold;
 }
+
 .team li p {
 	font-size: 12px;
 	color: #999999;
 	line-height: 20px;
 }
+
 .team li img {
 	position: relative;
 	right: 0px;
 	z-index: 9;
 }
+
 .team li:hover img {
 	right: 80%;
 }
+
 .team li:hover .team-over {
 	right: 0px;
 }
+
 /*=======================================================
 			TESTIMONIAL
 ========================================================*/
@@ -1000,12 +1168,14 @@ header .share .open-navigation {
 	padding: 80px 0;
 	padding-bottom: 0px;
 }
+
 .testimonial .testi {
 	background: url(../images/testi-bg.jpg) center center no-repeat;
 	padding: 80px 100px;
 	text-align: center;
 	background-size: cover;
 }
+
 .testimonial .testi p {
 	font-weight: bold;
 	font-size: 16px;
@@ -1013,31 +1183,39 @@ header .share .open-navigation {
 	font-style: italic;
 	line-height: 28px;
 }
+
 .testimonial .testi h6 {
 	color: #fff;
 	margin-top: 30px;
 }
+
 .testimonial .testi p span {
 	font-size: 26px;
 }
+
 .testimonial .owl-nav {
 	margin-top: 30px;
 	font-size: 30px;
 }
+
 .testimonial .owl-nav div {
 	display: inline-block;
 	padding: 0 20px;
 }
+
 .testimonial .owl-nav {
 	color: #fff;
 }
+
 .testimonial .owl-nav .owl-prev {
 	display: inline-block !important;
 	border-right: 1px solid #fff;
 }
+
 .testimonial .owl-nav .owl-next {
 	display: inline-block !important;
 }
+
 /*=======================================================
 			CLIENTS
 ========================================================*/
@@ -1045,18 +1223,22 @@ header .share .open-navigation {
 	padding: 80px 0;
 	text-align: center;
 }
+
 .clients li {
 	display: inline-block;
 	padding: 0 10px;
 	width: 20%;
 	float: left;
 }
+
 .clients li a {
 	opacity: 0.5;
 }
+
 .clients li a:hover {
 	opacity: 1;
 }
+
 /*=======================================================
 			BLOG
 ========================================================*/
@@ -1068,6 +1250,7 @@ header .share .open-navigation {
 	z-index: 11;
 	margin-bottom: 60px;
 }
+
 .blog article:before {
 	content: "";
 	background: #fff;
@@ -1078,35 +1261,42 @@ header .share .open-navigation {
 	top: 0px;
 	left: 0px;
 }
+
 .blog article img {
 	position: relative;
 	z-index: 99;
 }
+
 .blog-info {
 	padding: 20px 30px;
 	position: relative;
 	z-index: 99;
 	padding-top: 40px;
 }
+
 .blog-info .btn-1 {
 	border: 1px solid #333333;
 	font-weight: normal;
 }
+
 .post-tittle {
 	display: inline-block;
 	width: 100%;
 	margin-bottom: 30px;
 }
+
 .post-tittle a {
 	font-family: 'Montserrat';
 	margin-top: 0px;
 }
+
 .post-tittle ul li {
 	display: inline-block;
 	font-size: 11px;
 	margin-top: 10px;
 	margin-right: 30px;
 }
+
 .date-post {
 	height: 60px;
 	width: 60px;
@@ -1120,6 +1310,7 @@ header .share .open-navigation {
 	font-size: 11px;
 	margin-right: 30px;
 }
+
 .date-post h4 {
 	margin: 0px;
 	font-weight: bold;
@@ -1127,11 +1318,13 @@ header .share .open-navigation {
 	text-align: center;
 	font-size: 22px;
 }
+
 .simple-post .blog-info {
 	background: #fff;
 	border: 1px solid #ececec;
 	padding: 40px;
 }
+
 .single-post blockquote {
 	font-size: 14px;
 	font-style: italic;
@@ -1142,6 +1335,7 @@ header .share .open-navigation {
 	color: #999999;
 	line-height: 26px;
 }
+
 .single-post .social_icons {
 	display: inline-block;
 	width: 100%;
@@ -1150,53 +1344,66 @@ header .share .open-navigation {
 	padding-top: 30px;
 	text-align: center;
 }
+
 .single-post .social_icons li {
 	display: inline-block;
 	float: none;
 }
+
 .single-post .social_icons a {
 	border-radius: 0px;
 	border: 1px solid #e5e5e5;
 }
+
 .comments .media-left .media-object {
 	border: 1px solid #e9e9e9;
 	margin-right: 20px;
 	border-radius: 50%;
 }
+
 .comments .media-body {
 	padding: 15px 15px;
 	padding-top: 0px;
 	border-bottom: 1px solid #f5f5f5;
 }
+
 .comments .media-body h4 span {
 	font-size: 12px;
 	color: #777777;
 	margin-left: 20px;
 }
+
 .comments .media-body a {
 	float: right;
 	margin-top: -23px;
 }
+
 .comments {
 	margin-top: 30px;
 }
+
 .comments .media-list {
 	margin-bottom: 30px;
 }
+
 .comments .media-list li {
 	padding: 20px 0;
 }
+
 .comments .media-left {
 	margin-right: 20px;
 }
+
 .comments .media-left a {
 	width: 100px;
 	display: inline-block;
 }
+
 .comments .media p {
 	margin-top: 15px;
 	font-size: 13px;
 }
+
 .comments .media h6 span {
 	font-size: 11px;
 	color: #777777;
@@ -1207,14 +1414,17 @@ header .share .open-navigation {
 	margin-left: 20px;
 	margin-top: 10px;
 }
+
 .comments .media {
 	margin-top: 30px;
 }
+
 .comments .media h6 {
 	font-weight: 700;
 	font-size: 12px;
 	text-transform: uppercase;
 }
+
 .comments .media a {
 	font-size: 11px;
 	font-weight: normal;
@@ -1222,9 +1432,11 @@ header .share .open-navigation {
 	color: #9c9c9c;
 	text-transform: uppercase;
 }
+
 .comments .media a img {
 	margin-bottom: 10px;
 }
+
 .comments form label {
 	text-transform: uppercase;
 	font-weight: normal;
@@ -1233,6 +1445,7 @@ header .share .open-navigation {
 	width: 100%;
 	font-size: 12px;
 }
+
 .comments form .form-control {
 	display: inline-block;
 	width: 100%;
@@ -1244,14 +1457,17 @@ header .share .open-navigation {
 	border: none;
 	border-bottom: 1px solid #ececec;
 }
+
 .comments form textarea.form-control {
 	display: inline-block;
 	width: 100%;
 	height: 100px;
 }
+
 .comments form .form-control:focus {
 	border-bottom: 1px solid #333;
 }
+
 .comments form .btn {
 	border: none;
 	float: right;
@@ -1264,9 +1480,11 @@ header .share .open-navigation {
 	position: relative;
 	z-index: 2;
 }
+
 .comments {
 	margin-bottom: 50px;
 }
+
 /*=======================================================
 			CONTACT
 ========================================================*/
@@ -1274,39 +1492,47 @@ header .share .open-navigation {
 	height: 440px;
 	margin-bottom: 0px;
 }
+
 .contact-info {
 	background: #f1f1f1;
 }
+
 .contact-info li {
 	padding: 20px 40px;
 }
+
 .contact-info li h5 {
 	font-size: 15px;
 	text-transform: uppercase;
 	font-weight: normal;
 	margin-bottom: 5px;
 }
+
 .contact-info li i {
 	font-size: 40px;
 	float: left;
 	margin-right: 20px;
 }
+
 .contact-info li p {
 	font-size: 10px;
 	color: #999999;
 	text-transform: uppercase;
 }
+
 /*=======================================================
 			CONTACT FORM
 ========================================================*/
 .contact #contact_form {
 	text-align: center;
 }
+
 .contact .error {
 	border: none;
 	border-bottom: 1px solid red;
 	border-left: 1px solid red;
 }
+
 .success-msg {
 	background: #fff;
 	border: 1px solid #ABD0A8;
@@ -1319,22 +1545,26 @@ header .share .open-navigation {
 	border-radius: 4px;
 	display: none;
 }
+
 .success-msg i {
 	padding: 10px;
 	border-radius: 50%;
 	border: 1px solid #ABD0A8;
 	margin-right: 10px;
 }
+
 #contact_form li {
 	text-align: left;
 	margin-bottom: 20px;
 }
+
 #contact_form li input {
 	display: inline-block;
 	width: 100%;
 	height: 40px;
 	padding: 0 10px;
 }
+
 #contact_form li .form-control {
 	height: 40px;
 	border: none;
@@ -1343,18 +1573,23 @@ header .share .open-navigation {
 	background: #fff;
 	border-bottom: 1px solid #e5e5e5;
 }
+
 #contact_form li textarea {
 	height: 140px !important;
 }
+
 #contact_form .form-control:focus {
 	border-bottom: 1px solid #333;
 }
+
 #contact_form li .btn {
 	text-transform: uppercase;
 }
+
 .contact-form .tittle {
 	text-align: center;
 }
+
 .contact-form .tittle hr {
 	width: 28px;
 	height: 5px;
@@ -1362,10 +1597,12 @@ header .share .open-navigation {
 	background: #448aff;
 	border: none;
 }
+
 .contact-form .tittle p {
 	text-transform: none;
 	font-size: 16px;
 }
+
 .contact-form label {
 	font-weight: normal;
 	color: #696969;
@@ -1376,19 +1613,23 @@ header .share .open-navigation {
 	margin: 0px;
 	line-height: 10px;
 }
+
 .contact-form textarea {
 	display: inline-block;
 	width: 100%;
 	position: relative;
 	padding: 10px 20px;
 }
+
 .contact-form h4 {
 	text-transform: uppercase;
 	margin-bottom: 30px;
 }
+
 .contact-form {
 	margin-top: 70px;
 }
+
 .contact-form .btn {
 	border: none;
 	float: right;
@@ -1399,9 +1640,11 @@ header .share .open-navigation {
 	position: relative;
 	z-index: 2;
 }
+
 .contact-form .btn:hover {
 	color: #fff;
 }
+
 /*=======================================================
 			SIDE BAR
 ========================================================*/
@@ -1410,6 +1653,7 @@ header .share .open-navigation {
 	text-transform: uppercase;
 	font-size: 16px;
 }
+
 .side-bar hr {
 	border: none;
 	height: 1px;
@@ -1418,14 +1662,16 @@ header .share .open-navigation {
 	background: none;
 	margin: 0px auto;
 }
+
 /*=======================================================
 			CATEGORIES
 ========================================================*/
 .cate li {
 	border-bottom: 1px solid #eeeeee;
-	padding-bottom : 15px;
+	padding-bottom: 15px;
 	margin-bottom: 15px;
 }
+
 .cate li a {
 	display: inline-block;
 	width: 100%;
@@ -1434,39 +1680,47 @@ header .share .open-navigation {
 	font-size: 12px;
 	letter-spacing: 0px;
 }
+
 .cate li a span {
 	float: right;
 }
+
 .cate li a:hover {
 	color: #222222;
 }
+
 /*=======================================================
 			PAPULAR POST
 ========================================================*/
-.papu-post {
-}
+.papu-post {}
+
 .papu-post .media-left {
 	width: 80px;
 	margin-right: 0px;
 }
+
 .papu-post .media-left img {
 	width: 100%;
 }
+
 .papu-post .media-left a {
 	width: 70px;
 	margin-right: 10px;
 	display: inline-block;
 }
+
 .papu-post span {
 	color: #999999;
 	letter-spacing: 0px;
 	font-size: 11px;
 }
+
 .papu-post li {
 	border-bottom: 1px solid #ececec;
 	padding: 15px 0;
 	margin: 0px;
 }
+
 .papu-post .media-heading {
 	display: inline-block;
 	width: 100%;
@@ -1476,9 +1730,11 @@ header .share .open-navigation {
 	text-transform: uppercase;
 	letter-spacing: 0px;
 }
+
 .tags li {
 	display: inline-block;
 }
+
 .tags li a {
 	font-size: 11px;
 	text-transform: uppercase;
@@ -1486,10 +1742,12 @@ header .share .open-navigation {
 	padding: 8px 15px;
 	float: left;
 }
+
 .tags li a:hover {
 	background: #444444;
 	color: #fff;
 }
+
 /*=======================================================
 			RIGHTS
 ========================================================*/
@@ -1499,12 +1757,14 @@ header .share .open-navigation {
 	text-align: center;
 	padding-bottom: 20px;
 }
+
 .rights p {
 	text-transform: uppercase;
 	color: #999999;
 	font-size: 12px;
 	margin: 0px;
 }
+
 /*=======================================================
 			SOCIAL ICONS
 ========================================================*/
@@ -1512,16 +1772,19 @@ header .share .open-navigation {
 	position: relative;
 	z-index: 1;
 }
+
 .social_icons ul {
 	margin: 0;
 	padding: 0;
 	text-align: center;
 }
+
 .social_icons li {
 	display: inline-block;
 	list-style: none;
 	float: left;
 }
+
 .social_icons a {
 	display: block;
 	width: 40px;
@@ -1536,121 +1799,144 @@ header .share .open-navigation {
 	border: 1px solid #f5f5f5;
 	margin-right: 5px;
 }
+
 .social_icons a:hover i {
 	-webkit-border-radius: 100%;
 	-moz-border-radius: 100%;
 	-webkit-transition: 0.4s ease-in-out;
 	color: #fff;
 }
+
 .social_icons .behance a:hover {
 	color: #fff;
 	background-color: #2b9ad2;
 	border-color: #2b9ad2;
 }
+
 .social_icons .blogger a:hover {
 	color: #fff;
 	background-color: #ff6500;
 	border-color: #ff6500;
 }
+
 .social_icons .deviantart a:hover {
 	color: #fff;
 	background-color: #536659;
 	border-color: #536659;
 }
+
 .social_icons .dribbble a:hover {
 	color: #fff;
 	background-color: #f973a4;
 	border-color: #f973a4;
 }
+
 .social_icons .facebook a:hover {
 	color: #fff;
 	background-color: #3b5a9b;
 	border-color: #3b5a9b;
 }
+
 .social_icons .flickr a:hover {
 	color: #fff;
 	background-color: #ff0084;
 	border-color: #ff0084;
 }
+
 .social_icons .forrst a:hover {
 	color: #fff;
 	background-color: #2f713d;
 	border-color: #2f713d;
 }
+
 .social_icons .googleplus a:hover {
 	color: #fff;
 	background-color: #f63d26;
 	border-color: #f63d26;
 }
+
 .social_icons .instagram a:hover {
 	color: #fff;
 	background-color: #507ea4;
 	border-color: #507ea4;
 }
+
 .social_icons .lastfm a:hover {
 	color: #fff;
 	background-color: #da0019;
 	border-color: #da0019;
 }
+
 .social_icons .linkedin a:hover {
 	color: #fff;
 	background-color: #0072b2;
 	border-color: #0072b2;
 }
+
 .social_icons .paypal a:hover {
 	color: #fff;
 	background-color: #165c82;
 	border-color: #165c82;
 }
+
 .social_icons .picasa a:hover {
 	color: #fff;
 	background-color: #cb2027;
 	border-color: #cb2027;
 }
+
 .social_icons .pinterest a:hover {
 	color: #fff;
 	background-color: #cb2027;
 	border-color: #cb2027;
 }
+
 .social_icons .skype a:hover {
 	color: #fff;
 	background-color: #00aaf1;
 	border-color: #00aaf1;
 }
+
 .social_icons .soundcloud a:hover {
 	color: #fff;
 	background-color: #ff6900;
 	border-color: #ff6900;
 }
+
 .social_icons .stumbleupon a:hover {
 	color: #fff;
 	background-color: #eb4823;
 	border-color: #eb4823;
 }
+
 .social_icons .twitter a:hover {
 	color: #fff;
 	background-color: #2baae1;
 	border-color: #2baae1;
 }
+
 .social_icons .vimeo a:hover {
 	color: #fff;
 	background-color: #40b2dc;
 	border-color: #40b2dc;
 }
+
 .social_icons .youtube a:hover {
 	color: #fff;
 	background-color: #ff3330;
 	border-color: #ff3330;
 }
+
 .social_icons .tumblr a:hover {
 	color: #fff;
 	background-color: #35506b;
 	border-color: #35506b;
 }
-.nav-close{
-	position:absolute;
-	left:30px;
-	font-size:30px;
-	top:0px;
-	display:none;
+
+.nav-close {
+	position: absolute;
+	left: 30px;
+	font-size: 30px;
+	top: 0px;
+	display: none;
 }
